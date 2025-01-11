@@ -496,7 +496,6 @@ video {
   overflow: hidden;
 }
 .darkmode .section .card {
-  background-color: var(--color-black-100);
   color: var(--color-white-100);
 }
 .section .card img {
