@@ -618,8 +618,9 @@ ul, li {
 .darkmode .history-container i {
   color: var(--color-blue-400);
 }
-.history-container h4 {
+.history-container h2 {
   margin-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 .footer {
