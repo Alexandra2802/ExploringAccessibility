@@ -475,6 +475,11 @@ video {
   padding: 3rem;
   box-sizing: border-box;
 }
+@media screen and (max-width: 500px) {
+  .section .cards-container {
+    padding: 1rem;
+  }
+}
 .section .card-column {
   flex: 1 1 calc(50% - 20px); /* Take up 50% of the width with space for gap */
   display: flex; /* Use Flexbox to make the cards inside equal height */
@@ -484,9 +489,16 @@ video {
 .section .big-card-column {
   width: 100%;
 }
+.section .big-card-column .card {
+  padding-bottom: 2rem;
+}
 .section .big-card-column .card img {
-  height: 550px;
   border-radius: 2rem;
+}
+@media screen and (min-width: 800px) {
+  .section .big-card-column .card img {
+    height: 550px;
+  }
 }
 .section .card {
   flex: 1; /* Ensure cards stretch to fill column height */
@@ -536,7 +548,7 @@ ul, li {
   padding: 0 1rem;
   padding: 3rem 9rem;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .history-container {
     padding: 1rem;
   }

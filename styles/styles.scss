@@ -584,6 +584,9 @@ video {
    margin: 0 auto;
    padding: 3rem;
    box-sizing: border-box;
+   @media screen and (max-width: 500px){
+      padding: 1rem;
+   }
  }
  
  .card-column {
@@ -600,9 +603,13 @@ video {
    .card {
       
       img {
-         height: 550px;
+
+         @media screen and (min-width: 800px) {
+            height: 550px;
+         }
          border-radius: 2rem;
       }
+      padding-bottom: 2rem;
       
    }
    
@@ -681,7 +688,7 @@ ul, li{
  padding: 0 1rem;
  padding: 3rem 9rem;
 
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 500px) {
    padding: 1rem;
 
  }
