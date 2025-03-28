@@ -24,6 +24,7 @@ This project is a fully responsive and accessible website designed to provide an
 - ARIA attributes where necessary to enhance screen reader compatibility.
 - Sufficient color contrast for readability.
 - Keyboard navigability and focus states for interactive elements.
+- Darkmode option
 
 ## Deployment
 
